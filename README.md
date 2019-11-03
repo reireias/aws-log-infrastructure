@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/reireias/aws-log-infrastructure.svg?branch=master)](https://travis-ci.org/reireias/aws-log-infrastructure)
 # aws-log-infrastructure
-AWS Log Infrastructure = ELB - ECS - KDS - S3 - Athena.
+AWS Log Infrastructure = KDS - S3 - Athena.
 
 ## setup
 
