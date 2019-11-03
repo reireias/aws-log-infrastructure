@@ -6,5 +6,5 @@ AWS Log Infrastructure = ELB - ECS - KDS - S3 - Athena.
 
 ```console
 $ tfenv install
-$ aws s3 mb s3://log-infrastructure-terraform
+$ aws s3 mb s3://reireias-log-infrastructure-terraform
 ```
