@@ -8,3 +8,11 @@ AWS Log Infrastructure = KDS - S3 - Athena.
 $ tfenv install
 $ aws s3 mb s3://reireias-log-infrastructure-terraform
 ```
+
+## put test log
+
+```console
+$ cd put-record
+$ yarn install
+$ node index.js
+```
