@@ -5,7 +5,7 @@ const kinesis = new AWS.Kinesis({ region: 'ap-northeast-1' })
 
 const main = async () => {
   const json = {
-    date: moment().subtract(90, 'seconds').toISOString()
+    date: moment().subtract(90, 'seconds').utc().format('YYYY-MM-DD hh:mm:ss')
   }
   const params = {
     Data: JSON.stringify(json) + '\n',
