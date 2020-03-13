@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/reireias/aws-log-infrastructure.svg?branch=master)](https://travis-ci.org/reireias/aws-log-infrastructure)
+![test](https://github.com/reireias/aws-log-infrastructure/workflows/test/badge.svg)
 # aws-log-infrastructure
 AWS Log Infrastructure = KDS - S3 - Athena.
 
